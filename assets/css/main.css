@@ -1,0 +1,78 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#nav{
+	background-color: #eeeeee;
+	width: 100%;
+}
+
+#nav img{
+	width: 25%;
+	border-radius: 50%;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#nav i,
+#nav h5{
+	margin-top: 30px;
+}
+
+
+
+#home img{
+border-radius: 50%;
+width: 80%;
+cursor: pointer;
+}
+
+#usuarios{
+	margin-left: 0;
+	padding-left: 0;
+	margin-right: 10px;
+	background-color: white;
+}
+
+#mensajes{
+	background-image: url(../image/chat-panel-bg.png);
+}
+
+i{
+	color: #666;
+}
+
+#inputUser{
+	width: 400px;
+}
+
+#iconUser{
+margin-left: -70px;
+}
+
+#inputMensaje{
+	margin-left: -15px;
+	width: 700px;
+	margin-top: 850px;
+	height: 50px;
+}
+
+#iconMensaje{
+margin-left: 700px;
+cursor: pointer;
+}
+
+#mensajeUsuario{
+	background-color: whitesmoke;
+	text-align: center;
+	width: 300px;
+	margin-bottom: 10px;
+}
+
+
+
+
+
+

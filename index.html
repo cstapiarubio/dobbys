@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Dobbys</title>
+	<!--iconos-->
+	<link rel="stylesheet" type="text/css" href="assets/FontAwesome/css/font-awesome.min.css">
+	<!--cdn css bootstrap-->
+	<link rel="stylesheet" type="text/css" href="assets/Bootstrap/css/bootstrap.min.css">
+	<!--css-->
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+</head>
+<body>
+	<!--nav-->
+	<div id="nav" class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="row">
+					<div class="col-md-8">
+						<img src="assets/image/gian.jpg">
+
+					</div>
+					<div class="col-md-2"><i class="fa fa-address-card"></i></div>
+					<div class="col-md-2"><i class="fa fa-ellipsis-v"></i></div>
+				</div>
+
+			</div>
+
+			<div id="conectado" class="col-md-8">
+<div class="row">
+					<div class="col-md-2">
+						<img src="assets/image/logocodeacademy.png">
+
+					</div>
+					<div class="col-md-6"><h5>Laboratoria Perú</h5>
+					<p>Ana María, Aldo, Gian, Mariana, Papu, Tú</p></div>
+					<div class="col-md-2"><i class="fa fa-paperclip"></i></div>
+					<div class="col-md-2"><i class="fa fa-ellipsis-v"></i></div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!--home-->
+	<div id="home" class="container">
+		<div class="row"><!--primer row-->
+			<div class="col-md-4">
+				<i id="iconUser" class="fa fa-search"></i><input id="inputUser" type="text" name="" placeholder="Buscar o empezar un chat nuevo">
+
+				
+				<div id="usuarios" class="row"><!--2 row-->
+					<div class="col-md-3"><!--1 usuario-->
+						<img id="fotoUsuario" src="assets/image/logocodeacademy.png">
+					</div>
+					<div class="col-md-6">
+						<h5>Laboratoria</h5>
+						<p>No se pique!!!</p>
+					</div>
+					<div class="col-md-3">
+						<p>14:27</p>
+
+					</div><!--1 usuario-->
+
+					<div class="col-md-3"><!--2 usuario-->
+						<img id="fotoUsuario" src="assets/image/raymi.jpg">
+					</div>
+					<div class="col-md-6">
+						<h5>Raymi Saldomando</h5>
+						<p>La clase va bien!</p>
+					</div>
+					<div class="col-md-3">
+						<p>11:25</p>
+
+					</div><!--2 usuario-->
+
+					<div class="col-md-3"><!--3 usuario-->
+						<img id="fotoUsuario" src="assets/image/mariana.jpg">
+					</div>
+					<div class="col-md-6">
+						<h5>Mariana Costa</h5>
+						<p>El panel de speakers está buenazo</p>
+					</div>
+					<div class="col-md-3">
+						<p>09:25</p>
+
+					</div><!--3 usuario-->
+
+					<div class="col-md-3"><!--4 usuario-->
+						<img id="fotoUsuario" src="assets/image/anamaria.jpg">
+					</div>
+					<div class="col-md-6">
+						<h5>Ana María Martínez Franklin</h5>
+						<p>Pues dale chamo!</p>
+					</div>
+					<div class="col-md-3">
+						<p>Ayer</p>
+
+					</div><!--4 usuario-->
+
+					<div class="col-md-3"><!--5 usuario-->
+						<img id="fotoUsuario" src="assets/image/rodulfo.jpg">
+					</div>
+					<div class="col-md-6">
+						<h5>Rodulfo Prieto</h5>
+						<p>¿Cómo van las chicas?</p>
+					</div>
+					<div class="col-md-3">
+						<p>Martes</p>
+
+					</div><!--5 usuario-->
+
+					<div class="col-md-3"><!--6 usuario-->
+						<img id="fotoUsuario" src="assets/image/andrea.jpg">
+					</div>
+					<div class="col-md-6">
+						<h5>Andrea Lamas</h5>
+						<p>Hoy me toca clases de canto, yee!!!</p>
+					</div>
+					<div class="col-md-3">
+						<p>Lunes</p>
+
+					</div><!--6 usuario-->
+
+					<div class="col-md-3"><!--7 usuario-->
+						<img id="fotoUsuario" src="assets/image/mariapaula.jpg">
+					</div>
+					<div class="col-md-6">
+						<h5>Maria Paula Rivarola</h5>
+						<p>Wuju! esto me encanta!! en verdad!</p>
+					</div>
+					<div class="col-md-3">
+						<p>13/01/2016</p>
+
+					</div><!--7 usuario-->
+
+					<div class="col-md-3"><!--8 usuario-->
+						<img id="fotoUsuario" src="assets/image/katy.jpg">
+					</div>
+					<div class="col-md-6">
+						<h5>Katy Sanchez</h5>
+						<p>No te preocupes, tengo el salón bajo control</p>
+					</div>
+					<div class="col-md-3">
+						<p>11/01/2016</p>
+
+					</div><!--8 usuario-->
+
+					<div class="col-md-3"><!--9 usuario-->
+						<img id="fotoUsuario" src="assets/image/aldo.jpg">
+					</div>
+					<div class="col-md-6">
+						<h5>Aldo Alfaro</h5>
+						<p>Vamos a comer? </p>
+					</div>
+					<div class="col-md-3">
+						<p>03/01/2016</p>
+
+					</div><!--9 usuario-->
+
+				</div><!--2 row-->
+			</div>
+
+			<div id="mensajes" class="col-md-8">
+				<div id="contenedorMensaje"></div>
+				<div class="row">
+					<div class="col-md-8">
+						<i class="fa fa-smile"></i><input id="inputMensaje" type="text" name="" placeholder="Escribe tu mensaje aquí">
+						<i id="iconMensaje" class="fa fa-microphone" aria-hidden="true"></i>
+					</div>
+					
+				</div>
+				
+			</div>
+
+		</div><!--primer row-->
+
+	</div>
+
+	<!--cdn jquery-->
+	<script type="text/javascript" src="assets/jQuery/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="assets/jQuery/jquery-3.2.1.js"></script>
+	<!--cdn js bootstrap-->
+	<script type="text/javascript" src="assets/Bootstrap/js/bootstrap.min.js"></script>
+	<!--js-->
+	<script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>
